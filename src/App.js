@@ -5,12 +5,12 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
-import Portfolio from './pages/Portfolio'
+// import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link
 } from "react-router-dom";
@@ -62,17 +62,13 @@ function App() {
         <main className={classes.content}>
           <div className={classes.appBarSpacer} />
           <Container className={classes.container}>
-            <Switch>
-              <Route exact path="/">
-                <Home />
-              </Route>
-              <Route exact path="/portfolio">
+            <Routes>
+              <Route exact path="/" component={Home}/>
+              {/* <Route exact path="/portfolio">
                 <Portfolio />
-              </Route>
-              <Route exact path="/contact">
-                <Contact />
-              </Route>
-            </Switch>
+              </Route> */}
+              <Route exact path="/contact" component={Contact}/>
+            </Routes>
           </Container>
         </main>
       </div>
