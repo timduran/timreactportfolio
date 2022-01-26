@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/timreactportfolio/static/css/main.073c9b0a.css",
+    "main.js": "/timreactportfolio/static/js/main.92b4f23e.js",
+    "static/js/787.f899b940.chunk.js": "/timreactportfolio/static/js/787.f899b940.chunk.js",
+    "index.html": "/timreactportfolio/index.html",
+    "main.073c9b0a.css.map": "/timreactportfolio/static/css/main.073c9b0a.css.map",
+    "main.92b4f23e.js.map": "/timreactportfolio/static/js/main.92b4f23e.js.map",
+    "787.f899b940.chunk.js.map": "/timreactportfolio/static/js/787.f899b940.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.92b4f23e.js"
+  ]
+}
