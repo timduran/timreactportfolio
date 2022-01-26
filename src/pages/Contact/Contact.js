@@ -50,6 +50,7 @@ export default function Contact() {
   const classes = useStyles();
 
   return (
+    <React.Fragment>
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
@@ -135,5 +136,6 @@ export default function Contact() {
         <Copyright />
       </Box>
     </Container>
+    </React.Fragment>
   );
 }

@@ -5,7 +5,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
-// import Portfolio from './pages/Portfolio'
+import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 
 import {
@@ -63,11 +63,9 @@ function App() {
           <div className={classes.appBarSpacer} />
           <Container className={classes.container}>
             <Routes>
-              <Route exact path="/" component={Home}/>
-              {/* <Route exact path="/portfolio">
-                <Portfolio />
-              </Route> */}
-              <Route exact path="/contact" component={Contact}/>
+              <Route exact path="/" element={<Home />}/>
+              <Route exact path="/portfolio" element={<Portfolio />}/>
+              <Route exact path="/contact" element={<Contact />}/>
             </Routes>
           </Container>
         </main>

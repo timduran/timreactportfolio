@@ -19,7 +19,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
 
-      Michael Scharf
+      TimothyDuran
 
       {new Date().getFullYear()}
 
@@ -106,3 +106,4 @@ export default function Home() {
     </React.Fragment>
   );
 }
+
