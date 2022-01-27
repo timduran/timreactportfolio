@@ -54,6 +54,7 @@ export default function Portfolio() {
 
               <Typography variant="body2" color="textSecondary" component="p">
                 I developed an app in a team of four people that allows for people to randomize a food and movie for thier date night.
+                <a href="https://lohasot.github.io/project-ghoat/" >View Site</a>
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -77,6 +78,7 @@ export default function Portfolio() {
 
               <Typography variant="body2" color="textSecondary" component="p">
                 Project2 is an app that I created with my team that allows users to post and sell products or random items that they wish to sell or trade. Also, allows the user to talk to one another through comments.
+                <a href="https://smartbartering.herokuapp.com/login.html" >View Site</a>
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -100,6 +102,7 @@ export default function Portfolio() {
 
               <Typography variant="body2" color="textSecondary" component="p">
                 passGen is a website that generates a random password for the user.
+                <a href="https://timduran.github.io/passwordGenerator/" >View Site</a>
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -124,6 +127,7 @@ export default function Portfolio() {
 
               <Typography variant="body2" color="textSecondary" component="p">
                 RefactorApp is a website that demostrates broken and after code.
+                <a href="https://timduran.github.io/codeRefactor/" >View Site</a>
               </Typography>
             </CardContent>
           </CardActionArea>
