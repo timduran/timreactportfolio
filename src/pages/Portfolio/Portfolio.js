@@ -123,7 +123,7 @@ export default function Portfolio() {
               </Typography>
 
               <Typography variant="body2" color="textSecondary" component="p">
-                RefactorApp is a website that demostrates broken code and after code.
+                RefactorApp is a website that demostrates broken and after code.
               </Typography>
             </CardContent>
           </CardActionArea>
